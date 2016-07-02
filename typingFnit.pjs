@@ -156,6 +156,8 @@ class GameView {
   void keyPress() {
       if(!end) {
 
+      println(key)
+
       if(key == 10) {
         foucs_character = 0;
         foucs_question = (int)random(cnt_en);
