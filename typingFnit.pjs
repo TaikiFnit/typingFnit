@@ -124,6 +124,9 @@ class GameView {
       text("type : " + cnt_type, 20, 110);
       text("miss : " + cnt_miss, 20, 140);
 
+      textFont(font, 18);
+      text("Press Enter for skip", 20, 370)
+
       textAlign(CENTER);
       textFont(font, 32);
 
