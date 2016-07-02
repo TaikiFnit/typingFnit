@@ -106,7 +106,7 @@ class GameView {
         jp[cnt_jp++] = data[i];
       }
     }
-    println(en.length);
+    //println(en.length);
     foucs_question = (int)random(cnt_en);
   }
 
