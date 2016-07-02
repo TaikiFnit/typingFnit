@@ -154,20 +154,16 @@ class GameView {
   }
 
   void keyPress() {
-      if(!end) {
+    if(!end) {
 
-      println(key)
-
-      if(key == 10) {
+      if(key == 10 ) {
         foucs_character = 0;
         foucs_question = (int)random(cnt_en);
-        return;
       }
       else {
         key = str(key);
 
         if(key == en[foucs_question].charAt(foucs_character)) {
-         println(key);
           foucs_character++;
           cnt_type++;
           status = "good";
@@ -178,7 +174,6 @@ class GameView {
             foucs_question = (int)random(cnt_en);
             cnt_success++;
 
-
             if(en.length <= foucs_question) {
               background(back);
               textAlign(CENTER);
@@ -186,17 +181,12 @@ class GameView {
               text("Complete!", 400, 100);
               end = true;
               return;
-              }
-
             }
-
-        //} else if(key == ENTER) {
-          //foucs_character = 0;
-          //foucs_question = (int)random(cnt_en);
+          }
         }
         else {
-         cnt_miss++;
-         status = "bad";
+          cnt_miss++;
+          status = "bad";
         }
       }
 
@@ -205,7 +195,6 @@ class GameView {
     }
   }
 }
-
 class helpView {
 
 }
