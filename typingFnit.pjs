@@ -156,41 +156,46 @@ class GameView {
   void keyPress() {
       if(!end) {
 
-      println(key);
-      key = str(key);
-      println(key);
-
-      if(key == en[foucs_question].charAt(foucs_character)) {
-       println(key);
-        foucs_character++;
-        cnt_type++;
-        status = "good";
-
-        if(en[foucs_question].length() <= foucs_character) {
-
-          foucs_character = 0;
-          foucs_question = (int)random(cnt_en);
-          cnt_success++;
-
-
-          if(en.length <= foucs_question) {
-            background(back);
-            textAlign(CENTER);
-            fill(front);
-            text("Complete!", 400, 100);
-            end = true;
-            return;
-            }
-
-          }
-
-      } else if(key == ENTER) {
-        foucs_character = 0;
-        foucs_question = (int)random(cnt_en);
+      if(key == 10) {
+        //foucs_character = 0;
+        //foucs_question = (int)random(cnt_en);
+        return;
       }
       else {
-       cnt_miss++;
-       status = "bad";
+        key = str(key);
+
+        if(key == en[foucs_question].charAt(foucs_character)) {
+         println(key);
+          foucs_character++;
+          cnt_type++;
+          status = "good";
+
+          if(en[foucs_question].length() <= foucs_character) {
+
+            foucs_character = 0;
+            foucs_question = (int)random(cnt_en);
+            cnt_success++;
+
+
+            if(en.length <= foucs_question) {
+              background(back);
+              textAlign(CENTER);
+              fill(front);
+              text("Complete!", 400, 100);
+              end = true;
+              return;
+              }
+
+            }
+
+        //} else if(key == ENTER) {
+          //foucs_character = 0;
+          //foucs_question = (int)random(cnt_en);
+        }
+        else {
+         cnt_miss++;
+         status = "bad";
+        }
       }
 
       background(back);
