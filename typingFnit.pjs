@@ -157,8 +157,8 @@ class GameView {
       if(!end) {
 
       if(key == 10) {
-        //foucs_character = 0;
-        //foucs_question = (int)random(cnt_en);
+        foucs_character = 0;
+        foucs_question = (int)random(cnt_en);
         return;
       }
       else {
