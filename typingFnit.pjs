@@ -149,7 +149,6 @@ class GameView {
          fill(231, 76, 60);
         text(status, 700, 50);
       }
-
     }
   }
 
