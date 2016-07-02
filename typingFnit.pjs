@@ -95,7 +95,7 @@ class GameView {
   GameView() {
     background(back);
 
-    String data[] = loadStrings("/typingFnit/_3rd_words.txt");
+    String data[] = loadStrings("/typingFnit/words");
 
     for(int i = 0; i < data.length; i++) {
 
