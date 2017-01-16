@@ -62,13 +62,13 @@ national
 国民の、国を代表する 
 wrestling
 レスリング 
-a kind of …
+a kind of
 一種の… 
-make … of 〜
+make of
 〜で…を作る 
-a piece of …
+a piece of
 1つの… 
-all over …
+all over
 …のいたる所で、…一面に 
 since
 …（して）以来 
@@ -122,7 +122,7 @@ luck
 運 
 album
 （CDの）アルバム 
-be impressed with …
+be impressed with
 …に感動する 
 ever
 これまでに、いつか 
@@ -180,9 +180,9 @@ forward
 前方に[へ] 
 I'd love to.
 ええ、ぜひとも 
-in front of …
+in front of
 …の前で[に] 
-look forward to …
+look forward to
 …を楽しみに待つ 
 school trip
 修学旅行 
@@ -262,7 +262,7 @@ fluently
 流ちょうに 
 mistake
 まちがい 
-confuse … with 〜
+confuse with
 …を〜と混同する 
 wolf
 オオカミ 
@@ -278,9 +278,9 @@ same
 同じこと[もの] 
 afraid
 こわがって 
-put on …
+put on
 …を身につける、着る 
-be afraid of …
+be afraid of
 …をこわがる 
 line
 路線 
@@ -332,7 +332,7 @@ in addition
 そのうえ 
 in one's opinion
 …の意見では 
-call … back
+call back
 …にあとで電話する 
 break
 （壁・障壁）…を破る 
@@ -354,7 +354,7 @@ win
 …を勝ち取る 
 make one's debut
 デビューする 
-open the door to …
+open the door to
 …に門戸を開く、機会を与える 
 strong
 強い 
@@ -376,7 +376,7 @@ value
 価値 
 measure
 …をはかる 
-keep …ing
+keep ing
 …し続ける 
 nature
 自然 
@@ -430,7 +430,7 @@ meaningful
 意味のある、重要な 
 discover
 …を発見する 
-cheer … up
+cheer up
 …を元気づける 
 musical instrument
 楽器 
@@ -486,7 +486,7 @@ arrest
 逮捕 
 go on
 起こる 
-break into …
+break into
 …に侵入する 
 under arrest
 逮捕されて 
@@ -524,7 +524,7 @@ human
 人、人間 
 share
 …をわかち合う 
-depend on …
+depend on
 …にかかっている、次第である 
 photographer
 写真家 
@@ -568,7 +568,7 @@ melt
 とける 
 habitat
 生息地 
-because of …
+because of
 …が原因で 
 importance
 重要性 
@@ -576,7 +576,7 @@ perhaps
 もしかすると 
 encourage
 …を勇気づける 
-encourage … to 〜
+encourage to
 …に〜するように促す 
 laugh
 笑う 
